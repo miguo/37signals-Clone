@@ -7,6 +7,8 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
     <link rel="shortcut icon" href="img/favicon.ico.png"/>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -48,10 +50,31 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-10 col-md-offset-1 header" style="display: block">
               <h1>Making collaboration productive and enjoyable for people every day.</h1>
               <p id="tagline">Frustration-free web-based apps for collaboration, sharing information, and making decisions.</p>
             </div>
+          <!-- Basecamp hover text -->
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1" id="basecamp-hover" style="display: none">
+              <h1 class="hover-header"><a href="#">Basecamp</a> is the project management tool you wish you had on your last project.</h1>
+              <p class="hover-tagline">Are you still managing projects with email? Are you still using Excel for your to-do lists? It's time to upgrade to Basecamp. Manage projects and collaborate with your team and clients the modern way.</p>
+            </div>
+          </div>
+          <!-- Highrise hover text -->
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1" id="highrise-hover" style="display: none">
+              <h1 class="hover-header"><a href="#">Highrise</a> remembers the important things about people you'd normally forget.</h1>
+              <p class="hover-tagline">Keep a permanent record of people you do business with. Know who you talked to, when you talked to them, what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise.</p>
+            </div>
+          </div>
+          <!-- Campfire hover text -->
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1" id="campfire-hover" style="display: none">
+              <h1 class="hover-header">From near or far, <a href="#">Campfire</a> helps teams work together over the web in real-time.</h1>
+              <p class="hover-tagline">Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time private chat room. It's game changing. We couldn't run our own business without Campfire.</p>
+            </div>
+          </div>
           </div>
         </div>
       </div>
@@ -65,6 +88,7 @@
               <div class="col-md-4">
                 <div id="basecamp">
                   <img class="img-responsive" src="img/basecamp.png" alt="basecamp-logo" />
+                  <img class="arrow-left" src="img/arrow-left.png" alt="arrow-left" />
                   <h3>
                     <span>Basecamp</span>
                     <sup>&#174;</sup>
@@ -76,6 +100,7 @@
               <div class="col-md-4">
                 <div id="highrise">
                   <img class="img-responsive" src="img/highrise.png" alt="highrise-logo" />
+                  <img class="arrow-left" src="img/arrow-left.png" alt="arrow-left" />
                   <h3>
                     <span>Highrise</span>
                     <sup>&#174;</sup>
@@ -87,6 +112,7 @@
               <div class="col-md-4">
                 <div id="campfire">
                   <img class="img-responsive" src="img/campfire.png" alt="campfire-logo" />
+                  <img class="arrow-right" src="img/arrow-right.png" alt="arrow-right" />
                   <h3>
                     <span>Campfire</span>
                     <sup>&#8482;</sup>

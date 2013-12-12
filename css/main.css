@@ -143,6 +143,8 @@ h1 {
     padding-top: 7px;
 }
 
+/* Products section */
+
 #basecamp {
     display: block;
     text-align: center;
@@ -191,9 +193,22 @@ sup {
     padding-bottom: 35px;
 }
 
-#basecamp img {
+#basecamp .img-responsive {
     margin: auto;
     padding-top: 22px;
+}
+
+.arrow-left {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    margin-left: 130px;
+    margin-top: -144px;
+    visibility: hidden;
+}
+
+#basecamp:hover .arrow-left {
+    visibility: visible;
 }
 
 #highrise {
@@ -232,9 +247,13 @@ sup {
     padding-bottom: 35px;
 }
 
-#highrise img {
+#highrise .img-responsive {
     margin: auto;
     padding-top: 22px;
+}
+
+#highrise:hover .arrow-left {
+    visibility: visible;
 }
 
 #campfire {
@@ -274,13 +293,50 @@ sup {
     padding-bottom: 35px;
 }
 
-#campfire img {
+#campfire .img-responsive {
     margin: auto;
     padding-top: 22px;
 }
 
+.arrow-right {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    margin-left: -48px;
+    margin-top: -148px;
+    visibility: hidden;
+}
+
+#campfire:hover .arrow-right {
+    visibility: visible;
+}
+
 #basecamp, #campfire, #highrise { 
     padding: 0 20px;
+}
+
+/* Hover sections */
+.hover-header {
+    font-family: crimson_textsemibold, Times New Roman, serif;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 26px;
+    letter-spacing: -2px;
+    text-align: center;
+}
+
+.hover-header a {
+    text-decoration: underline;
+    color: #CC0000;
+}
+
+.hover-tagline {
+    font-family: Lucida Grande, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-top: -10px;
+    margin-bottom: -20px;
+    text-align: center;
 }
 
 
